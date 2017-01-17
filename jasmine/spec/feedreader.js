@@ -21,20 +21,20 @@ $(function() {
         });
 
         // Ensures that each feed has a URL defined and that the URL is not empty.
-         it('has URL and it is not empty', function() {
+        it('has URL and it is not empty', function() {
             allFeeds.forEach(function(feed) {
                 expect(feed.url).toBeDefined();
                 expect(feed.url.length).not.toBe(0);
             });
-         });
+        });
 
         // Ensures that each feed has a name defined and that the name is not empty.
-         it('has name and it is not empty', function() {
+        it('has name and it is not empty', function() {
             allFeeds.forEach(function(feed) {
                 expect(feed.name).toBeDefined();
                 expect(feed.name.length).not.toBe(0);
             });
-         });
+        });
     });
 
     describe('The Menu', function() {
@@ -71,8 +71,8 @@ $(function() {
     describe( 'New Feed Selection', function() {
         // Ensures when a new feed is loaded by the loadFeed function that the content actually changes.
         // Since loadFeed() is asynchronous this test uses Jasmine's beforeEach and asynchronous done() function.
-        var $initialFeed;
-        var $newFeed;
+        var initialFeed;
+        var newFeed;
 
         beforeEach(function(done) {
             loadFeed(0, function() {
