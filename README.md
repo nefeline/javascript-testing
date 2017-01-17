@@ -4,10 +4,6 @@ Testing is an important part of the development process and many organizations p
 
 In this project I developed a set of tests using [Jasmine](http://jasmine.github.io/) for a pre-existing web-based application that reads RSS feeds. These test the underlying business logic of the application as well as the event handling and DOM manipulation.
 
-## Demo
-
-https://nefeline.github.io/javascript-testing/
-
 ## How to install
 
 1. Clone or download this repository
