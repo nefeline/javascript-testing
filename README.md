@@ -4,6 +4,8 @@ Testing is an important part of the development process and many organizations p
 
 In this project I developed a set of tests using [Jasmine](http://jasmine.github.io/) for a pre-existing web-based application that reads RSS feeds. These test the underlying business logic of the application as well as the event handling and DOM manipulation.
 
+This Project was built for Udacity's Front-End Web Development Nanodegree.
+
 ## How to install
 
 1. Clone or download this repository
@@ -18,6 +20,8 @@ When you open the App, you should see the feed list along with a Jasmine Test se
 2. The Menu is hidden by default and changes visibility when clicked.
 3. There is at least one initial entry in the feed container.
 4. When a new feed is loaded, the content actually changes.
+
+Successfull tests will return Green and Failed tests will return Red.
 
 You can check the complete test file in jasmine/spec/feedreader.js
 
