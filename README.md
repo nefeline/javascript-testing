@@ -6,7 +6,7 @@ In this project I developed a set of tests using [Jasmine](http://jasmine.github
 
 ## Demo
 
-
+https://nefeline.github.io/javascript-testing/
 
 ## How to install
 
@@ -24,3 +24,7 @@ When you open the App, you should see the feed list along with a Jasmine Test se
 4. When a new feed is loaded, the content actually changes.
 
 You can check the complete test file in jasmine/spec/feedreader.js
+
+## Dependencies
+
+These tests were written using [Jasmine](http://jasmine.github.io/)
