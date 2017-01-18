@@ -58,9 +58,7 @@ $(function() {
         // Ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the.feed container.
         // Since loadFeed() is asynchronous this test uses Jasmine's beforeEach and asynchronous done() function.
         beforeEach(function(done) {
-            loadFeed(0, function() {
-                done();
-            });
+            loadFeed(0, done);
         });
         // Ensures that there is at least one entry in the feed.
         it('has at least one .entry element within .feed container', function(){
