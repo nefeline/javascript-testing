@@ -64,7 +64,7 @@ $(function() {
         });
         // Ensures that there is at least one entry in the feed.
         it('has at least one .entry element within .feed container', function(){
-            expect($('.entry').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
         });
     });
 
